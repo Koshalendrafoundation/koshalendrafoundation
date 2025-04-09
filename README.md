@@ -1,16 +1,68 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koshalendra Foundation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Koshalendra Foundation</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#work">Our Work</a>
+            <a href="#donate">Donate</a>
+            <a href="#collaborate">Collaborate</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-<!--
-**Koshalendrafoundation/koshalendrafoundation** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    <section id="home">
+        <h2>Empowering Lives Through Care</h2>
+        <p>Join us in bringing healthcare and hope to the underprivileged.</p>
+        <button onclick="scrollToSection('donate')">Donate Now</button>
+    </section>
 
-Here are some ideas to get you started:
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Koshalendra Foundation, we are dedicated to serving the poor and needy by providing essential healthcare and support.</p>
+    </section>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    <section id="work">
+        <h2>Our Work</h2>
+        <p>We’re organizing a 6-month medical camp near Bachupally for diagnosis and primary health checkups.</p>
+    </section>
+
+    <section id="donate">
+        <h2>Support Our Cause</h2>
+        <p>Your contribution helps us provide medical care to those in need.</p>
+        <a href="https://www.paypal.com/donate" target="_blank"><button>Donate Now</button></a>
+        <!-- Replace the link with your preferred payment gateway -->
+    </section>
+
+    <section id="collaborate">
+        <h2>Collaborate With Us</h2>
+        <p>We’re seeking partners like Dr. Reddy’s Foundation to provide infrastructure and medical expertise.</p>
+        <button onclick="scrollToSection('contact')">Get in Touch</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: [your-koshalendrafoundation@gmail.com] | Phone: [9110527593]</p>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Koshalendra Foundation. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
