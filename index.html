@@ -4,65 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koshalendra Foundation</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #1abc9c;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .about, .mission, .projects, .contact {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Koshalendra Foundation</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About Us</a>
-            <a href="#work">Our Work</a>
-            <a href="#donate">Donate</a>
-            <a href="#collaborate">Collaborate</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <p>Empowering Communities | Transforming Lives</p>
     </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#mission">Mission</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>Koshalendra Foundation is a registered non-profit organization in Telangana dedicated to community development through education, healthcare, and youth empowerment. We focus on underserved communities, creating impactful programs for lasting change.</p>
+        </section>
 
-    <section id="home">
-        <h2>Empowering Lives Through Care</h2>
-        <p>Join us in bringing healthcare and hope to the underprivileged.</p>
-        <button onclick="scrollToSection('donate')">Donate Now</button>
-    </section>
+        <section id="mission" class="mission">
+            <h2>Our Mission & Vision</h2>
+            <p><strong>Mission:</strong> To provide quality healthcare, education, and skill development opportunities to empower rural communities.</p>
+            <p><strong>Vision:</strong> A healthier, educated, and self-reliant Telangana where every individual has the opportunity to thrive.</p>
+        </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>At Koshalendra Foundation, we are dedicated to serving the poor and needy by providing essential healthcare and support.</p>
-    </section>
+        <section id="projects" class="projects">
+            <h2>Our Projects</h2>
+            <ul>
+                <li>Rural Health Camps in Karimnagar District</li>
+                <li>Educational support for engineering students</li>
+                <li>Skill development workshops for unemployed youth</li>
+                <li>Community awareness drives on health and hygiene</li>
+            </ul>
+        </section>
 
-    <section id="work">
-        <h2>Our Work</h2>
-        <p>We’re organizing a 6-month medical camp near Bachupally for diagnosis and primary health checkups.</p>
-    </section>
-
-    <section id="donate">
-        <h2>Support Our Cause</h2>
-        <p>Your contribution helps us provide medical care to those in need.</p>
-        <a href="https://www.paypal.com/donate" target="_blank"><button>Donate Now</button></a>
-        <!-- Replace the link with your preferred payment gateway -->
-    </section>
-
-    <section id="collaborate">
-        <h2>Collaborate With Us</h2>
-        <p>We’re seeking partners like Dr. Reddy’s Foundation to provide infrastructure and medical expertise.</p>
-        <button onclick="scrollToSection('contact')">Get in Touch</button>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: [koshalendrafoundation@gmail.com] | Phone: [9110527593s]</p>
-        <form>
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p><strong>President:</strong> Bolumalla Anil</p>
+            <p>Email: info@koshalendrafoundation.org</p>
+            <p>Phone: +91-XXXXXXXXXX</p>
+            <p>Address: Telangana, India</p>
+        </section>
+    </div>
 
     <footer>
-        <p>&copy; 2025 Koshalendra Foundation. All rights reserved.</p>
+        <p>&copy; 2025 Koshalendra Foundation. All Rights Reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
